@@ -18,3 +18,5 @@ The most notable formatting changes made by the stylesheet include:
 * Setting `display` to `none` for a number of sections that are either unused by the Bentley (e.g., assessments) or not necessary to include on a printed page (e.g., the ArchivesSpace header, footer, and sidebar)
 * Bolding field labels for improved readability
 
+## Acknowledgments
+This plugin is based off of the [print plugin created by the Yale ArchivesSpace Committee](https://github.com/YaleArchivesSpace/print)
