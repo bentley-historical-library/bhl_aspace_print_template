@@ -1,3 +1,4 @@
+/* BHL PRINT   OBSOLETE */
 @media print {
 	body, 
 	.container {
@@ -13,6 +14,27 @@
 		display: block !important;
 		height: auto !important;
 	}
+
+	div:has(#archivesSpaceSidebar) {
+		/* width: 0; */
+		display:none !important;
+	}
+
+	header,
+	footer,
+	.record-toolbar,
+	.breadcrumb-row,
+	.sidebar,
+	.actions,
+	.table-record-actions,
+	.audit-display-wide,
+	.panel-heading 
+	{
+		display:none !important;
+		/* visibility: hidden !important; */
+	}
+
+	/*
 	header,
 	footer,
 	#archivesSpaceSidebar,
@@ -25,8 +47,9 @@
 	.table-record-actions,
 	.audit-display-wide,
 	.panel-heading {
-		display:none;
+		display:none !important;
 	}
+*/
 	.control-label:after, label:after {content: ": ";}
 	.control-label, label {font-weight: bold; float:left;}
 	.label-only {float:left; margin-top: -5pt;}
